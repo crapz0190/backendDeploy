@@ -5,6 +5,7 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
+    "start": "nodemon --env-file=src/.env.development src/server.js",
     "start:dev": "nodemon --env-file=src/.env.development src/server.js",
     "start:prod": "nodemon --env-file=src/.env.production src/server.js",
     "start:test": "nodemon --env-file=test/.env.test src/server.js",
