@@ -1,0 +1,4 @@
+node_modules
+src/.env.development
+src/.env.production
+test
